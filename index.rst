@@ -9,6 +9,7 @@ What is PyGObject?
 .. toctree::
 
     faq
+    testing
 
 
 PyGObject API

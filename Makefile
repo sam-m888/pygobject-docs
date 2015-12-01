@@ -1,7 +1,6 @@
-all: _build/index.html
+all: _build
 
-
-_build/index.html: index.rst
+_build: Makefile *.rst
 	sphinx-build -b html . _build
 
 clean:
