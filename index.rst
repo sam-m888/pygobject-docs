@@ -10,6 +10,7 @@ What is PyGObject?
 
     faq
     testing
+    examples
 
 
 PyGObject API
