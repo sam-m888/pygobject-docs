@@ -11,10 +11,15 @@ What is PyGObject?
     faq
     testing
     examples
+    gobject
 
 
 PyGObject API
 -------------
+
+
+.. function:: gi.require_version(namespace, version)
+
 
 Demos
 -----
