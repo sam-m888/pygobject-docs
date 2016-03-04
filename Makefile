@@ -1,6 +1,6 @@
 all: _build
 
-_build: Makefile *.rst
+_build: Makefile *.rst conf.py
 	sphinx-build -b html . _build
 
 clean:

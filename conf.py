@@ -16,9 +16,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 project = u''
 copyright = u'2015'
-version = '1'
-release = '1'
-exclude_patterns = ['_build']
+exclude_patterns = ['_build', 'README.rst']
 
 pygments_style = 'tango'
-html_theme = 'pyramid'
+html_theme = 'sphinx_rtd_theme'
+html_show_copyright = False
+project = "PyGObject Tutorial"

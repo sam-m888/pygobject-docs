@@ -1,32 +1,26 @@
-===============================================
-Python API Documentation for the GNOME Platform
-===============================================
+==================
+PyGObject Tutorial
+==================
+
 
 What is PyGObject?
 ------------------
 
 
 .. toctree::
+    :hidden:
 
+    api
     faq
     testing
+    porting
+    basic_types
     examples
     gobject
+    memory_leaks
+    development
+    contact
 
-
-PyGObject API
--------------
-
-
-.. function:: gi.require_version(namespace, version)
-
-
-Demos
------
-
-
-Porting from pygtk and Other Static Bindings
---------------------------------------------
 
 
 GObject
@@ -59,8 +53,3 @@ String handling
 
 Path handling
 -------------
-
-
-FAQ
----
-
