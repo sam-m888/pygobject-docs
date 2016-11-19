@@ -22,3 +22,9 @@ pygments_style = 'tango'
 html_theme = 'sphinx_rtd_theme'
 html_show_copyright = False
 project = "PyGObject Tutorial"
+
+html_context = {
+    'extra_css_files': [
+        'https://quodlibet.github.io/fonts/font-mfizz.css',
+    ],
+}
