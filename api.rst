@@ -49,7 +49,7 @@ API
     if gi version is the same or newer. Otherwise raises ValueError.
 
 
-.. function:: get_required_version(namespace)
+.. function:: gi.get_required_version(namespace)
 
     :returns: The version successfully required previously by :func:`gi.require_version` or :obj:`None`
     :rtype: str or :obj:`None`

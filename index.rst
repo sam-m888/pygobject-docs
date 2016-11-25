@@ -16,7 +16,7 @@ What is PyGObject?
     examples
     gobject
     memory_leaks
-    development
+    devguide
     contact
 
 

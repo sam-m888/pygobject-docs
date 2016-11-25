@@ -21,7 +21,7 @@ exclude_patterns = ['_build', 'README.rst']
 pygments_style = 'tango'
 html_theme = 'sphinx_rtd_theme'
 html_show_copyright = False
-project = "PyGObject Tutorial"
+project = "PyGObject"
 
 html_context = {
     'extra_css_files': [
