@@ -33,3 +33,7 @@ html_context = {
 html_static_path = [
     "extra.css",
 ]
+
+html_theme_options = {
+    "display_version": False,
+}
