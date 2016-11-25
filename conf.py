@@ -26,5 +26,10 @@ project = "PyGObject"
 html_context = {
     'extra_css_files': [
         'https://quodlibet.github.io/fonts/font-mfizz.css',
+        '_static/extra.css',
     ],
 }
+
+html_static_path = [
+    "extra.css",
+]
