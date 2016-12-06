@@ -10,6 +10,7 @@ What is PyGObject?
     getting_started
     api
     faq
+    deploy
     testing
     porting
     basic_types
