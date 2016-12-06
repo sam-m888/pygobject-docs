@@ -6,6 +6,7 @@ What is PyGObject?
 
 .. toctree::
     :hidden:
+    :maxdepth: 1
 
     getting_started
     api
@@ -16,7 +17,7 @@ What is PyGObject?
     basic_types
     examples
     gobject
-    memory_leaks
+    debug_profile
     devguide
     contact
 
