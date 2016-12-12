@@ -23,7 +23,7 @@ supported.
 What about the PyGObject package on PyPI?
 -----------------------------------------
 
-The `PyGObejct <https://pypi.python.org/pypi/PyGObject>`__ on PyPI is the
+The `PyGObject <https://pypi.python.org/pypi/PyGObject>`__ on PyPI is the
 old PyGObject 2 and should not be used in new projects.
 
 
@@ -41,3 +41,12 @@ You can install directly from git:
     deactivate
 
 Note that this uses autotools internally and not distutils.
+
+
+How can I use PyGObject with the official CPython builds on Windows?
+--------------------------------------------------------------------
+
+https://sourceforge.net/projects/pygobjectwin32 provides binaries which should
+be ABI compatible with the official CPython binaries. I'd recomment using
+msys2 if at all possible, since there are more people involved and it's easier
+to fix/patch things yourself.

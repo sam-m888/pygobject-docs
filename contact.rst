@@ -2,8 +2,10 @@
 Contact
 =======
 
-#python on irc.gnome.org
+**IRC**
+    #python on irc.gnome.org
 
-https://mail.gnome.org/mailman/listinfo/python-hackers-list
+    Logs for the channel: http://quodlibet.duckdns.org/irc/pygobject
 
-https://bugzilla.gnome.org/page.cgi?id=browse.html&product=pygobject
+**Mailinglist**
+    https://mail.gnome.org/mailman/listinfo/python-hackers-list

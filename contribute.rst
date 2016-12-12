@@ -1,6 +1,6 @@
-=================
-Development Guide
-=================
+==========
+Contribute
+==========
 
 
 Reporting Bugs

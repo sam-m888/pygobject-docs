@@ -1,6 +1,8 @@
-===
-API
-===
+======
+GI API
+======
+
+This is the API provided by the toplevel "gi" package.
 
 
 .. function:: gi.require_version(namespace, version)

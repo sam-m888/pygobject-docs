@@ -1,29 +1,24 @@
-==================
-What is PyGObject?
-==================
+.. include:: icons.rst
 
-.. title:: Overview
+.. title:: PyGObject
 
 .. toctree::
     :hidden:
+    :titlesonly:
     :maxdepth: 1
 
     getting_started
-    api
+    guide/index
+
     faq
     deploy
-    testing
-    porting
-    basic_types
-    examples
-    gobject
+    testing    
     debug_profile
-    devguide
+    contribute
     contact
 
-
-**PyGObject** are Python bindings for gobject based libraries such as GTK+,
-GStreamer, WebKitGTK+, glib, gio and many more.
+**PyGObject** is a Python package which provides bindings for GObject based
+libraries such as GTK+, GStreamer, WebKitGTK+, GLib, GIO and many more.
 
 If you want to write a Python application for GNOME or a Python GUI
 application using GTK+, then PyGObject is the way to go.
@@ -35,9 +30,9 @@ How does it work?
 .. image:: images/overview.svg
 
 PyGObject uses glib, gobject, girepository, ffi and other libraries to access
-the C library (libgtk-3.so) and the additional metadata from the accompanying
-typelib file (Gtk-3.0.typelib) and dynamicly provides a Python interface based
-on that information.
+the C library (libgtk-3.so) in combination with the additional metadata from
+the accompanying typelib file (Gtk-3.0.typelib) and dynamicly provides a
+Python interface based on that information.
 
 
 Who Is Using PyGObject?

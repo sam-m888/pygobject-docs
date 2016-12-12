@@ -1,3 +1,5 @@
+.. include:: icons.rst
+
 ======================
 Application Deployment
 ======================
@@ -5,8 +7,14 @@ Application Deployment
 There is currently no nice deployment story, but it's not impossible. This is
 a list of random notes and examples.
 
+|linux-logo| Linux
+------------------
+
 On Linux there is no single strategy. Quod Libet uses distutils, MyPaint uses
 SCons. Gramps uses distutils.
+
+|macosx-logo| macOS
+-------------------
 
 On OSX you can use `gtk-osx <https://git.gnome.org/browse/gtk-osx>`__ which is
 based on jhbuild and then `gtk-mac-bundler
@@ -14,6 +22,9 @@ based on jhbuild and then `gtk-mac-bundler
 making libraries relocatable. With macOS bundles you generally have a startup
 shell script which sets all the various env vars relative to the bundle,
 similar to jhbuild.
+
+|windows-logo| Windows
+----------------------
 
 On Windows things are usually build to be relocatable by default, so no env
 vars are needed. You can build/install through MSYS2, copy the bits you need
