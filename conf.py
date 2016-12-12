@@ -14,7 +14,6 @@ intersphinx_mapping = {
 
 source_suffix = '.rst'
 master_doc = 'index'
-project = u''
 copyright = u'2015'
 exclude_patterns = ['_build', 'README.rst']
 
@@ -23,6 +22,7 @@ html_theme = 'sphinx_rtd_theme'
 html_show_copyright = False
 html_favicon = "images/favicon.ico"
 project = "PyGObject"
+html_title = project
 
 html_context = {
     'extra_css_files': [

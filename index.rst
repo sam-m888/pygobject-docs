@@ -1,6 +1,6 @@
 .. include:: icons.rst
 
-.. title:: PyGObject
+.. title:: Overview
 
 .. toctree::
     :hidden:
