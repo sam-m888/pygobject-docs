@@ -23,6 +23,10 @@ libraries such as GTK+, GStreamer, WebKitGTK+, GLib, GIO and many more.
 If you want to write a Python application for GNOME or a Python GUI
 application using GTK+, then PyGObject is the way to go.
 
+Also check out the `Python GTK+ 3 Tutorial
+<https://python-gtk-3-tutorial.readthedocs.io>`__ and the `Python GI API
+Reference <https://lazka.github.io/pgi-docs>`__.
+
 
 How does it work?
 -----------------
