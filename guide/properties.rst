@@ -7,7 +7,7 @@ Properties are part of a class and are defined through a
 on.
 
 To find all the registered properties of a class you can use the
-:meth:`GObject.ObjectClass.list_properties` class method.
+:meth:`GObject.Object.list_properties` class method.
 
 .. code:: pycon
 
