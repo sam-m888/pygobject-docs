@@ -35,7 +35,7 @@ How does it work?
 
 PyGObject uses glib, gobject, girepository, ffi and other libraries to access
 the C library (libgtk-3.so) in combination with the additional metadata from
-the accompanying typelib file (Gtk-3.0.typelib) and dynamicly provides a
+the accompanying typelib file (Gtk-3.0.typelib) and dynamically provides a
 Python interface based on that information.
 
 
