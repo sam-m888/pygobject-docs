@@ -12,8 +12,10 @@
 
     faq
     deploy
-    testing    
+    testing
     debug_profile
+    porting
+    further
     contribute
     contact
 
