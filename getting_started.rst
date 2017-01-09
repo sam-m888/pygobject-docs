@@ -43,7 +43,7 @@ installation.
 -------------------------------------------
 
 1) Open a terminal
-2) Execute ``sudo apt install python-gi python-gi-cairo python3-gi python3-gi-cairo libgtk-3-0``
+2) Execute ``sudo apt install python-gi python-gi-cairo python3-gi python3-gi-cairo gir1.2-gtk-3.0``
 3) Change the directory to where your ``hello.py`` script can be found (e.g. ``cd Desktop``)
 4) Run ``python2 hello.py``
 
