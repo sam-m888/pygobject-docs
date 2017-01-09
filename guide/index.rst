@@ -9,4 +9,5 @@ User Guide
 
     api
     basic_types
+    flags_enums
     gobject
