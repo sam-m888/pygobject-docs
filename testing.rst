@@ -1,15 +1,10 @@
+.. include:: icons.rst
+
 ==================================
 Testing and Continuous Integration
 ==================================
 
-
-Continuous Integration using Travis CI
---------------------------------------
-
-Travis uses a rather old Ubuntu and thus the supported GTK+ is at 3.10 and
-PyGObject is at 3.12. If that's enough for you go ahead.
-
-To get automated tests of GTK+ code running on a headless server is Xvfb
+To get automated tests of GTK+ code running on a headless server use Xvfb
 (virtual framebuffer X server). It provides the ``xvfb-run -a`` command which
 creates a temporary X server without the need for any real display hardware.
 
@@ -18,32 +13,23 @@ creates a temporary X server without the need for any real display hardware.
     xvfb-run -a python my_script.py
 
 
-Example Configuration
-^^^^^^^^^^^^^^^^^^^^^
+Continuous Integration using Travis CI
+--------------------------------------
 
-The following example runs your tests under ``xvfb`` and creates one job for
-Python2.7 and one for Python3.4.
+Travis CI uses a rather old Ubuntu and thus the supported GTK+ is at 3.10 and
+PyGObject is at 3.12. If that's enough for you then have a look at our Travis
+CI example project:
 
-.. code-block:: yaml
+    |github-logo| https://github.com/pygobject/pygobject-travis-ci-examples
 
-    matrix:
-      include:
-        - os: linux
-          sudo: required
-          dist: trusty
-          language: python
-          python: "2.7_with_system_site_packages"
-          env: PACKAGES="xvfb gir1.2-gtk-3.0 python-gi python-gi-cairo"
-        - os: linux
-          sudo: required
-          dist: trusty
-          language: python
-          python: "3.4_with_system_site_packages"
-          env: PACKAGES="xvfb gir1.2-gtk-3.0 python3-gi python3-gi-cairo"
+    .. image:: https://travis-ci.org/pygobject/pygobject-travis-ci-examples.svg?branch=master
+        :target: https://travis-ci.org/pygobject/pygobject-travis-ci-examples
 
-    install:
-     - sudo apt-get update -q
-     - sudo apt-get install --no-install-recommends -y $(echo $PACKAGES)
+To get newer PyGObject, GTK+, etc. working on Travis CI you can use Docker
+with an image of your choosing. Have a look at our Travis CI & Docker example
+project which runs tests on various Debian, Ubuntu and Fedora versions:
 
-    script:
-     - xvfb-run -a python ./setup.py test
+    |github-logo| https://github.com/pygobject/pygobject-travis-ci-docker-examples
+
+    .. image:: https://travis-ci.org/pygobject/pygobject-travis-ci-docker-examples.svg?branch=master
+        :target: https://travis-ci.org/pygobject/pygobject-travis-ci-docker-examples
