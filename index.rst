@@ -22,6 +22,7 @@
 .. image:: images/pygobject.svg
    :align: center
    :width: 400px
+   :height: 98px
 
 |
 
@@ -39,6 +40,7 @@ How does it work?
 
 .. figure:: images/overview.svg
     :width: 600px
+    :height: 222px
     :align: center
 
 PyGObject uses glib, gobject, girepository, ffi and other libraries to access
@@ -90,3 +92,4 @@ such as plugins or as optional backends:
 
 .. image:: images/pygobject-small.svg
    :width: 0
+   :height: 0
