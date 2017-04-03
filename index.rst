@@ -23,10 +23,6 @@
    :align: center
    :width: 400px
 
-
-.. image:: images/pygobject-small.svg
-   :width: 0
-
 |
 
 **PyGObject** is a Python package which provides bindings for GObject based
@@ -90,3 +86,7 @@ such as plugins or as optional backends:
     Threading
     String handling
     Path handling
+
+
+.. image:: images/pygobject-small.svg
+   :width: 0
