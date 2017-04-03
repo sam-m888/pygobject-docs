@@ -1,6 +1,12 @@
-==========
-Contribute
-==========
+=================
+Development Guide
+=================
+
+.. toctree::
+    :titlesonly:
+    :maxdepth: 1
+
+    style_guide
 
 
 Reporting Bugs

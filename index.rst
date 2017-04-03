@@ -16,7 +16,7 @@
     debug_profile
     porting
     further
-    contribute
+    devguide/index
     contact
 
 .. image:: images/pygobject.svg
