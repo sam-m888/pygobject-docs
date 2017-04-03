@@ -80,3 +80,40 @@ have to give the real property name and replacing "-" with "_" wont work.
     >>> app.set_property("application-id", "something.different")
     New value 'something.different'
     >>> 
+
+You can define your own properties using the :obj:`GObject.Property` function,
+which can be used similarly to the builtin Python function :any:`property`:
+
+.. function:: GObject.Property(type=None, default=None, nick='', blurb='', \
+    flags=GObject.ParamFlags.READWRITE, minimum=None, maximum=None)
+
+    :param GObject.GType type: Either a GType, a type with a GType or a
+        Python type which maps to a default GType
+    :param object default: A default value
+    :param str nick: Property nickname
+    :param str block: Short description
+    :param GObject.ParamFlags flags: Property configuration flags
+    :param object minimum: Minimum value, depends on the type
+    :param object maximum: Maximum value, depends on the type
+
+
+.. code:: python
+
+    class AnotherObject(GObject.Object):
+        value = 0
+
+        @GObject.Property
+        def prop_pyobj(self):
+            """Read only property."""
+
+            return object()
+
+        @GObject.Property(type=int)
+        def prop_gint(self):
+            """Read-write integer property."""
+
+            return self.value
+
+        @prop_gint.setter
+        def prop_gint(self, value):
+            self.value = value
