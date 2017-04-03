@@ -1,5 +1,7 @@
 .. include:: icons.rst
 
+.. _gettingstarted:
+
 ===============
 Getting Started
 ===============

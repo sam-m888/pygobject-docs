@@ -11,3 +11,4 @@ User Guide
     basic_types
     flags_enums
     gobject
+    cairo_integration
