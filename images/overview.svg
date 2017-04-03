@@ -3,7 +3,7 @@
 <svg width="27cm" height="10cm" viewBox="220 135 524 199" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs/>
   <g id="Background">
-    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #646464" x="456.332" y="136.698" width="134.923" height="196.302" rx="6" ry="6"/>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #646464" x="456.332" y="136.698" width="134.923" height="196.302" rx="8" ry="8"/>
     <g>
       <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #5a9fd4" x="221.09" y="214.954" width="80" height="36" rx="10" ry="10"/>
       <text font-size="12.8" style="fill: #646464; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:Lato;font-style:normal;font-weight:500" x="261.09" y="237.604">
@@ -35,20 +35,20 @@
       </text>
     </g>
     <g>
-      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #646464" x1="301.09" y1="232.954" x2="332.552" y2="233.605"/>
-      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #646464" points="324.686,238.443 334.788,233.651 324.893,228.445 "/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #646464" x1="301.09" y1="232.954" x2="330.289" y2="233.558"/>
+      <polygon style="fill: #646464; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #646464" fill-rule="evenodd" points="334.788,233.651 328.727,236.527 330.289,233.558 328.851,230.528 "/>
     </g>
     <g>
-      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #646464" x1="419.6" y1="234.562" x2="451.86" y2="234.813"/>
-      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #646464" points="444.057,239.753 454.096,234.831 444.135,229.753 "/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #646464" x1="419.6" y1="234.562" x2="449.596" y2="234.796"/>
+      <polygon style="fill: #646464; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #646464" fill-rule="evenodd" points="454.096,234.831 448.073,237.784 449.596,234.796 448.12,231.784 "/>
     </g>
     <g>
-      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #646464" points="591.256,234.848 615.096,234.848 615.096,200.938 634.566,200.938 "/>
-      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #646464" points="626.802,205.938 636.802,200.938 626.802,195.938 "/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #646464" d="M 591.256 234.848 C 615.096,234.848 615.096,200.938 632.302,200.938"/>
+      <polygon style="fill: #646464; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #646464" fill-rule="evenodd" points="636.802,200.938 630.802,203.938 632.302,200.938 630.802,197.938 "/>
     </g>
     <g>
-      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #646464" points="591.256,234.848 615.096,234.848 615.096,270.234 633.858,270.234 "/>
-      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #646464" points="626.094,275.234 636.094,270.234 626.094,265.234 "/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #646464" d="M 591.256 234.848 C 615.096,234.848 615.096,270.234 631.594,270.234"/>
+      <polygon style="fill: #646464; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #646464" fill-rule="evenodd" points="636.094,270.234 630.094,273.234 631.594,270.234 630.094,267.234 "/>
     </g>
     <g>
       <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #5a9fd4" x="484" y="285.9" width="80" height="36" rx="10" ry="10"/>

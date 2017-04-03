@@ -26,13 +26,18 @@
 
 |
 
-**PyGObject** is a Python package which provides bindings for GObject based
-libraries such as GTK+, GStreamer, WebKitGTK+, GLib, GIO and many more.
+**PyGObject** is a Python package which provides bindings for `GObject
+<https://developer.gnome.org/gobject/stable/>`__ based libraries such as `GTK+
+<https://www.gtk.org/>`__, `GStreamer <https://gstreamer.freedesktop.org/>`__,
+`WebKitGTK+ <https://webkitgtk.org/>`__, `GLib
+<https://developer.gnome.org/glib/stable/>`__, `GIO
+<https://developer.gnome.org/gio/stable/>`__ and many more.
 
-If you want to write a Python application for GNOME or a Python GUI
-application using GTK+, then PyGObject is the way to go. Also check out the
-`Python GTK+ 3 Tutorial <https://python-gtk-3-tutorial.readthedocs.io>`__ and
-the `Python GI API Reference <https://lazka.github.io/pgi-docs>`__.
+If you want to write a Python application for `GNOME
+<https://www.gnome.org/>`__ or a Python GUI application using GTK+, then
+PyGObject is the way to go. Also check out the "`Python GTK+ 3 Tutorial
+<https://python-gtk-3-tutorial.readthedocs.io>`__" and the "`Python GI API
+Reference <https://lazka.github.io/pgi-docs>`__".
 
 
 How does it work?
@@ -43,10 +48,13 @@ How does it work?
     :height: 222px
     :align: center
 
-PyGObject uses glib, gobject, girepository, ffi and other libraries to access
-the C library (libgtk-3.so) in combination with the additional metadata from
-the accompanying typelib file (Gtk-3.0.typelib) and dynamically provides a
-Python interface based on that information.
+PyGObject uses `glib <https://developer.gnome.org/glib/stable/>`__, `gobject
+<https://developer.gnome.org/gobject/stable/>`__, `girepository
+<https://developer.gnome.org/gi/stable/>`__, `libffi
+<https://sourceware.org/libffi/>`__ and other libraries to access the C
+library (libgtk-3.so) in combination with the additional metadata from the
+accompanying typelib file (Gtk-3.0.typelib) and dynamically provides a Python
+interface based on that information.
 
 
 Who Is Using PyGObject?
