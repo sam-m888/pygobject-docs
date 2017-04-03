@@ -34,3 +34,16 @@ footer hr {
 .rst-footer-buttons {
     display: none;
 }
+
+a.icon-home, a.icon-home:hover {
+    display: inline-block;
+    padding: 4px 4px 4px 21px;
+    background: transparent url(../_images/pygobject-small.svg) center left no-repeat;
+    background-size: 18%;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+}
+
+.fa-home::before, .icon-home::before {
+    content: "";
+}
