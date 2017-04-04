@@ -73,9 +73,3 @@ example, the last 3 commits::
     git format-patch -3
 
 Open a new bug report and attach the resulting files.
-
-
-Creating a Release
-------------------
-
-See https://git.gnome.org/browse/pygobject/tree/HACKING

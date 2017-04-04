@@ -15,8 +15,9 @@
     testing
     debug_profile
     porting
-    further
     devguide/index
+    maintguide
+    further
     contact
 
 .. image:: images/pygobject.svg
