@@ -10,9 +10,10 @@ extensions = [
 ]
 
 intersphinx_mapping = {
-    'gtk': ('https://lazka.github.io/pgi-docs/#Gtk-3.0/', 'https://lazka.github.io/pgi-docs/Gtk-3.0/objects.inv'),
+    'gtk': ('https://lazka.github.io/pgi-docs/Gtk-3.0', None),
     'gobject': ('https://lazka.github.io/pgi-docs/GObject-2.0', None),
     'glib': ('https://lazka.github.io/pgi-docs/GLib-2.0', None),
+    'gdk': ('https://lazka.github.io/pgi-docs/Gdk-3.0', None),
     'python': ('http://docs.python.org/2.7', None),
 }
 

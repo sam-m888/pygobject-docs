@@ -12,3 +12,4 @@ User Guide
     flags_enums
     gobject
     cairo_integration
+    threading
