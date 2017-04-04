@@ -3,7 +3,7 @@
 }
 
 .wy-nav-top {
-    background-color: #404040;
+    background-color: #171A2F;
 }
 
 .wy-side-nav-search input[type="text"] {
@@ -39,11 +39,19 @@ a.icon-home, a.icon-home:hover {
     display: inline-block;
     padding: 4px 4px 4px 21px;
     background: transparent url(pygobject-small.svg) center left no-repeat;
-    background-size: 18%;
+    background-size: 1.2em;
     margin-top: 0.2em;
     margin-bottom: 1em;
 }
 
+
 .fa-home::before, .icon-home::before {
     content: "";
+}
+
+.wy-nav-top a {
+    margin: -2em;
+    background: transparent url(pygobject-small.svg) center left no-repeat;
+    background-size: 1.2em;
+    padding: 4px 4px 4px 24px;
 }
