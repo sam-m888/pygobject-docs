@@ -96,8 +96,3 @@ such as plugins or as optional backends:
     Threading
     String handling
     Path handling
-
-
-.. image:: images/pygobject-small.svg
-   :width: 0
-   :height: 0

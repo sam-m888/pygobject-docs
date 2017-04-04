@@ -33,6 +33,7 @@ html_context = {
 
 html_static_path = [
     "extra.css",
+    "images/pygobject-small.svg",
 ]
 
 html_theme_options = {
