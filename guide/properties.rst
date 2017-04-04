@@ -81,8 +81,8 @@ have to give the real property name and replacing "-" with "_" wont work.
     New value 'something.different'
     >>> 
 
-You can define your own properties using the :obj:`GObject.Property` function,
-which can be used similarly to the builtin Python function :any:`property`:
+You can define your own properties using the :obj:`GObject.Property` decorator,
+which can be used similarly to the builtin Python :any:`property` decorator:
 
 .. function:: GObject.Property(type=None, default=None, nick='', blurb='', \
     flags=GObject.ParamFlags.READWRITE, minimum=None, maximum=None)

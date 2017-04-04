@@ -51,3 +51,43 @@ For example it can be used to temporarily ignore signal emissions using
     >>> app.props.application_id = "change.again"
     (<Gio.Application object at 0x7f1bbb304550 (GApplication at 0x5630f1faf2b0)>, <GParamString 'application-id'>)
     >>> 
+
+
+You can define your own signals using the :obj:`GObject.Signal` decorator:
+
+
+.. function:: GObject.Signal(name='', flags=GObject.SignalFlags.RUN_FIRST, \
+    return_type=None, arg_types=None, accumulator=None, accu_data=None)
+
+    :param str name: The signal name
+    :param GObject.SignalFlags flags: Signal flags
+    :param GObject.GType return_type: Return type
+    :param [GObject.GType] arg_types: Argument types
+    :param GObject.SignalAccumulator accumulator: Accumulator function
+    :param object accu_data: User data for the accumulator
+
+
+.. code:: python
+
+    class MyClass(GObject.Object):
+
+        @GObject.Signal(flags=GObject.SignalFlags.RUN_LAST, return_type=bool,
+                        arg_types=(object,),
+                        accumulator=GObject.signal_accumulator_true_handled)
+        def test(self, *args):
+            print("Handler", args)
+
+        @GObject.Signal
+        def noarg_signal(self):
+            print("noarg_signal")
+
+    instance = MyClass()
+
+    def test_callback(inst, obj):
+        print "Handled", inst, obj
+        return True
+
+    instance.connect("test", test_callback)
+    instance.emit("test", object())
+
+    instance.emit("noarg_signal")
