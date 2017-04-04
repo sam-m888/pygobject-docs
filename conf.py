@@ -3,7 +3,11 @@
 import sys
 import os
 
-extensions = ['sphinx.ext.todo', 'sphinx.ext.intersphinx']
+extensions = [
+    'sphinx.ext.todo',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.extlinks',
+]
 
 intersphinx_mapping = {
     'gtk': ('https://lazka.github.io/pgi-docs/#Gtk-3.0/', 'https://lazka.github.io/pgi-docs/Gtk-3.0/objects.inv'),
@@ -38,4 +42,8 @@ html_static_path = [
 
 html_theme_options = {
     "display_version": False,
+}
+
+extlinks = {
+    'gnomebug': ('https://bugzilla.gnome.org/show_bug.cgi?id=%s', '#'),
 }
