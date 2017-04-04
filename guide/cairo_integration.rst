@@ -11,8 +11,19 @@ Some distros ship the PyGObject cairo support in a separate package. If you've
 followed the instructions on ":ref:`gettingstarted`" you should have everything
 installed.
 
+If your application requires the cairo integration you can use
+:func:`gi.require_foreign`:
+
+.. code:: python
+
+    try:
+        gi.require_foreign("cairo")
+    except ImportError:
+        print("No pycairo integration :(")
+
 Note that PyGObject currently does not support `cairocffi
 <https://pypi.python.org/pypi/cairocffi>`__, only pycairo.
+
 
 Demo
 ----
