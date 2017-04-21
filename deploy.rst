@@ -45,3 +45,8 @@ Example Deployments
   MSYS2 and Inno Setup. It uses SCons for building/installing the application.
 
 * ...?
+
+Other options
+-------------
+
+* `PyInstaller <http://www.pyinstaller.org/>`_ is a program that freezes (packages) Python programs into stand-alone executables, under Windows, Linux, Mac OS X, and more. PyInstaller's packager has built-in support for automatically including PyGObject dependencies with your application without requiring additional configuration.
