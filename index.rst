@@ -82,18 +82,3 @@ such as plugins or as optional backends:
 * `gedit <https://wiki.gnome.org/Apps/Gedit>`_- a GNOME text editor
 * `matplotlib <http://matplotlib.org/>`__ - a python 2D plotting library
 * `Totem <https://wiki.gnome.org/Apps/Videos>`__ - a video player for GNOME
-
-
-
-.. ::
-
-    TODO:
-
-    GObject
-    Properties
-    Signals
-    VFuncs
-    Interfaces
-    Threading
-    String handling
-    Path handling
