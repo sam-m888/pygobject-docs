@@ -4,8 +4,8 @@ Cairo Integration
 
 Despite `cairo <https://cairographics.org/>`__ not being a GObject based
 library, PyGObject provides special cairo intergration through `pycairo
-<https://cairographics.org/pycairo/>`__. Functions returning and taking cairo
-data types get automatically converted to pycairo objects and vice versa.
+<https://pycairo.readthedocs.io>`__. Functions returning and taking cairo data
+types get automatically converted to pycairo objects and vice versa.
 
 Some distros ship the PyGObject cairo support in a separate package. If you've
 followed the instructions on ":ref:`gettingstarted`" you should have everything
