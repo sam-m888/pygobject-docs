@@ -83,4 +83,7 @@ installation.
 |macosx-logo| macOS
 -------------------
 
-1) TODO: complicated, jhbuild
+1) Go to https://brew.sh/ and install homebrew
+2) Open a terminal
+3) Run ``brew install pygobject3 --with-python3``
+4) Run ``python2 hello.py``
