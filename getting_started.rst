@@ -85,5 +85,6 @@ installation.
 
 1) Go to https://brew.sh/ and install homebrew
 2) Open a terminal
-3) Run ``brew install pygobject3 --with-python3``
-4) Run ``python2 hello.py``
+3) Execute ``brew install pygobject3 --with-python3``
+4) Change the directory to where your ``hello.py`` script can be found (e.g. ``cd Desktop``)
+5) Run ``python2 hello.py``
