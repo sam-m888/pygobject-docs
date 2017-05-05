@@ -89,7 +89,7 @@ Threads: FAQ
   Long answer: ``gtk.gdk.threads_init()``, ``gtk.gdk.threads_enter()`` and
   ``gtk.gdk.threads_leave()`` are now :func:`Gdk.threads_init`,
   :func:`Gdk.threads_enter` and :func:`Gdk.threads_leave`.
-  ``gobject.threads_init()`` is now :func:`GObject.threads_init`.
+  ``gobject.threads_init()`` can be removed.
 
 * I'm using :func:`Gdk.threads_init` and want to get rid of it. What do I 
   need to do?
@@ -261,7 +261,7 @@ In the asynchronous variant we need two more things:
 
 * A :class:`Gio.Cancellable`, which we can use during the operation to 
   abort or cancel it.
-* And a :class:`Gio.AsyncReadyCallback()` callback function, which gets called 
+* And a :func:`Gio.AsyncReadyCallback` callback function, which gets called
   once the operation is finished and we can collect the result.
 
 The window contains two buttons for which we register ``clicked`` signal
