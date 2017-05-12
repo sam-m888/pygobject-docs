@@ -6,9 +6,10 @@
 Getting Started
 ===============
 
-Before we start the installation of all the needed dependencies for your
-platform create a small Python script called ``hello.py`` with the following
-content and save it somewhere:
+To get things started we will try to run a very simple `GTK+
+<https://www.gtk.org/>`_ based GUI application using the PyGObject provided
+Python bindings. First create a small Python script called ``hello.py`` with
+the following content and save it somewhere:
 
 .. code:: python
 
@@ -21,9 +22,8 @@ content and save it somewhere:
     window.connect("delete-event", Gtk.main_quit)
     Gtk.main()
 
-
-This will allow you to verify if everything is set up properly after
-installation.
+Before we can run the example application we need to install PyGObject, GTK+
+and their dependencies. Follow the instructions for your platform below.
 
 
 |windows-logo| Windows
