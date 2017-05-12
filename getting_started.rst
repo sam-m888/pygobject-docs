@@ -38,7 +38,7 @@ installation.
 7) In the mingw32 terminal execute ``python2 hello.py`` - a window should appear.
 
 .. figure:: images/start_windows.png
-    :scale: 50%
+    :scale: 60%
 
 
 |ubuntu-logo| Ubuntu / |debian-logo| Debian
@@ -50,7 +50,7 @@ installation.
 4) Run ``python2 hello.py``
 
 .. figure:: images/start_linux.png
-    :scale: 50%
+    :scale: 60%
 
 
 |fedora-logo| Fedora
@@ -88,3 +88,6 @@ installation.
 3) Execute ``brew install pygobject3 --with-python3 gtk+3`` to install for both python2 and python3
 4) Change the directory to where your ``hello.py`` script can be found (e.g. ``cd Desktop``)
 5) Run ``python2 hello.py``
+
+.. figure:: images/start_macos.png
+    :scale: 70%
