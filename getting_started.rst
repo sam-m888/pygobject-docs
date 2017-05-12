@@ -7,7 +7,7 @@ Getting Started
 ===============
 
 To get things started we will try to run a very simple `GTK+
-<https://www.gtk.org/>`_ based GUI application using the PyGObject provided
+<https://www.gtk.org/>`_ based GUI application using the :doc:`PyGObject <index>` provided
 Python bindings. First create a small Python script called ``hello.py`` with
 the following content and save it somewhere:
 
