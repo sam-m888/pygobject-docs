@@ -11,3 +11,4 @@ Development Guide
     contribute
     style_guide
     override_guidelines
+    packaging
