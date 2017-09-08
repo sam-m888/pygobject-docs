@@ -3,7 +3,7 @@ Cairo Integration
 =================
 
 Despite `cairo <https://cairographics.org/>`__ not being a GObject based
-library, PyGObject provides special cairo intergration through `pycairo
+library, PyGObject provides special cairo integration through `pycairo
 <https://pycairo.readthedocs.io>`__. Functions returning and taking cairo data
 types get automatically converted to pycairo objects and vice versa.
 
@@ -28,7 +28,7 @@ Note that PyGObject currently does not support `cairocffi
 Demo
 ----
 
-The following example show a :obj:`Gtk.Window` with custom drawing in Python
+The following example shows a :obj:`Gtk.Window` with a custom drawing in Python
 using pycairo.
 
 .. figure:: images/cairo_integration.png
