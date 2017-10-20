@@ -36,3 +36,11 @@ on ":ref:`gettingstarted`" first, as they are a pre-requirement.
     ./autogen.sh
     make
     make check
+
+
+|macosx-logo| macOS
+-------------------
+
+.. code:: console
+
+    # TODO

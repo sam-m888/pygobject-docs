@@ -6,9 +6,9 @@ Development Guide
     :titlesonly:
     :maxdepth: 1
 
+    overview
     dev_environ
     building_testing
-    contribute
     style_guide
     override_guidelines
     packaging
