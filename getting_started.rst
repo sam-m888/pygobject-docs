@@ -19,7 +19,7 @@ the following content and save it somewhere:
 
     window = Gtk.Window(title="Hello World")
     window.show()
-    window.connect("delete-event", Gtk.main_quit)
+    window.connect("destroy", Gtk.main_quit)
     Gtk.main()
 
 Before we can run the example application we need to install PyGObject, GTK+
