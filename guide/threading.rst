@@ -37,7 +37,7 @@ while still showing feedback on the progress in a window.
 
     def app_main():
         win = Gtk.Window(default_height=50, default_width=300)
-        win.connect("delete-event", Gtk.main_quit)
+        win.connect("destroy", Gtk.main_quit)
 
         progress = Gtk.ProgressBar(show_text=True)
         win.add(progress)
@@ -234,7 +234,7 @@ operation.
     if __name__ == "__main__":
         win = DownloadWindow()
         win.show_all()
-        win.connect("delete-event", Gtk.main_quit)
+        win.connect("destroy", Gtk.main_quit)
 
         Gtk.main()
 
