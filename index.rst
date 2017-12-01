@@ -73,6 +73,7 @@ Who Is Using PyGObject?
 * `Pitivi <http://www.pitivi.org/>`__ - a free and open source video editor
 * `Quod Libet <https://quodlibet.readthedocs.io/>`__ - a music library manager / player
 * `Transmageddon <http://www.linuxrising.org/>`__ - a video transcoder
+* `Pithos <https://pithos.github.io/>`__ - an unoffical Pandora radio client
 
 
 The following applications or libraries use PyGObject for optional features,
