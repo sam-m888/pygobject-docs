@@ -6,7 +6,7 @@ This document serves as a guide for developers creating new PyGObject
 overrides or modifying existing ones. This document is not intended as hard
 rules as there may always be pragmatic exceptions to what is listed here. It
 is also a good idea to study the `Zen of Python by Tim Peters
-<http://www.python.org/dev/peps/pep-0020/>`__.
+<https://www.python.org/dev/peps/pep-0020/>`__.
 
 In general, overrides should be minimized and preference should always be
 placed on updating the underlying API to be more bindable, adding features to
@@ -79,7 +79,7 @@ bindable API becomes a reality (:gnomebug:`707280`).
   * Never set Pythons default encoding.
 
     *Reason*: Read or watch Ned Batchelders "`Pragmatic Unicode
-    <http://nedbatchelder.com/text/unipain.html>`__"
+    <https://nedbatchelder.com/text/unipain.html>`__"
 
 * For PyGTK compatibility APIs, add them to PyGTKCompat not overrides.
 * Prefer adapter patterns over of inheritance and overrides.

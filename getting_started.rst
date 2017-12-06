@@ -29,7 +29,7 @@ and their dependencies. Follow the instructions for your platform below.
 |windows-logo| Windows
 ----------------------
 
-1) Go to https://msys2.github.io/ and download the x86_64 installer
+1) Go to http://www.msys2.org/ and download the x86_64 installer
 2) Follow the instructions on the page for setting up the basic environment
 3) Run ``C:\msys64\mingw32.exe`` - a terminal window should pop up
 4) Execute ``pacman -S mingw-w64-i686-gtk3 mingw-w64-i686-python2-gobject mingw-w64-i686-python3-gobject``

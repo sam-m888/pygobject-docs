@@ -21,7 +21,7 @@ Making a Release
    python-announce-list@python.org
 #. Blog about it (include the HTMLized NEWS that ``make release-news`` prints)
 
-Based on http://live.gnome.org/MaintainersCorner/Releasing
+Based on https://wiki.gnome.org/MaintainersCorner/Releasing
 
 
 Branching

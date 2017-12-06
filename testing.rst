@@ -26,7 +26,7 @@ CI example project:
         :target: https://travis-ci.org/pygobject/pygobject-travis-ci-examples
 
 To get newer PyGObject, GTK+, etc. working on `Travis CI
-<http://travis-ci.org>`__ or `CircleCI <https://circleci.com>`__ you can use
+<https://travis-ci.org>`__ or `CircleCI <https://circleci.com>`__ you can use
 Docker with an image of your choosing. Have a look at our Docker example
 project which runs tests on various Debian, Ubuntu and Fedora versions:
 

@@ -9,5 +9,8 @@ images/%.svg: images/%.dia
 _build: Makefile *.rst devguide/*.rst guide/*.rst conf.py images/*.png $(DIA_SVGS)
 	sphinx-build -b html . _build
 
+linkcheck:
+	sphinx-build -b linkcheck -n . _build
+
 clean:
 	rm -R _build $(DIA_SVGS)
