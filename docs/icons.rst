@@ -1,3 +1,8 @@
+.. |python-logo| raw:: html
+
+    <i class="icon-python"></i>
+
+
 .. |ubuntu-logo| raw:: html
 
     <i class="icon-ubuntu"></i>

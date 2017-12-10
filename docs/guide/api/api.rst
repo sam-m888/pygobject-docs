@@ -1,6 +1,6 @@
-======
-GI API
-======
+================
+GI Documentation
+================
 
 This is the API provided by the toplevel "gi" package.
 

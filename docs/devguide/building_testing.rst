@@ -2,8 +2,8 @@
 Building & Testing
 ==================
 
-Building
---------
+Building with Autotools
+-----------------------
 
 Building for Python 2:
 
@@ -18,6 +18,16 @@ Building for Python 3:
 
     ./autogen.sh --with-python=python3
     make
+
+
+Building with Setuptools
+------------------------
+
+Building in the source directory:
+
+::
+
+    python setup.py buildext --inplace
 
 
 Testing

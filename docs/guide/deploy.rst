@@ -1,4 +1,4 @@
-.. include:: icons.rst
+.. include:: ../icons.rst
 
 ======================
 Application Deployment

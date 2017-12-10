@@ -25,6 +25,13 @@ the following content and save it somewhere:
 Before we can run the example application we need to install PyGObject, GTK+
 and their dependencies. Follow the instructions for your platform below.
 
+======================================= ==================================== ==================================== ==========================================
+|ubuntu-logo| :ref:`Ubuntu <ubuntu>`    |fedora-logo| :ref:`Fedora <fedora>` |arch-logo| :ref:`Arch Linux <arch>` |opensuse-logo| :ref:`openSUSE <opensuse>`
+|windows-logo| :ref:`Windows <windows>` |macosx-logo| :ref:`macOS <macosx>`  |python-logo| :ref:`PyPI <pypi>`
+======================================= ==================================== ==================================== ==========================================
+
+
+.. _windows:
 
 |windows-logo| Windows
 ----------------------
@@ -41,6 +48,8 @@ and their dependencies. Follow the instructions for your platform below.
     :scale: 60%
 
 
+.. _ubuntu:
+
 |ubuntu-logo| Ubuntu / |debian-logo| Debian
 -------------------------------------------
 
@@ -53,6 +62,8 @@ and their dependencies. Follow the instructions for your platform below.
     :scale: 60%
 
 
+.. _fedora:
+
 |fedora-logo| Fedora
 --------------------
 
@@ -61,6 +72,8 @@ and their dependencies. Follow the instructions for your platform below.
 3) Change the directory to where your ``hello.py`` script can be found (e.g. ``cd Desktop``)
 4) Run ``python2 hello.py``
 
+
+.. _arch:
 
 |arch-logo| Arch Linux
 ----------------------
@@ -71,6 +84,8 @@ and their dependencies. Follow the instructions for your platform below.
 4) Run ``python2 hello.py``
 
 
+.. _opensuse:
+
 |opensuse-logo| openSUSE
 ------------------------
 
@@ -79,6 +94,8 @@ and their dependencies. Follow the instructions for your platform below.
 3) Change the directory to where your ``hello.py`` script can be found (e.g. ``cd Desktop``)
 4) Run ``python2 hello.py``
 
+
+.. _macosx:
 
 |macosx-logo| macOS
 -------------------
@@ -91,3 +108,21 @@ and their dependencies. Follow the instructions for your platform below.
 
 .. figure:: images/start_macos.png
     :scale: 70%
+
+
+.. _pypi:
+
+|python-logo| From PyPI
+-----------------------
+
+PyGObject is also available on PyPI: https://pypi.org/project/PyGObject
+
+For this approach you have to make sure that all runtime and build
+dependencies are present yourself as pip will only take care of pycairo.
+
+.. code::
+
+    virtualenv --python=python3 myvenv
+    source myvenv/bin/activate
+    pip install pygobject
+    python hello.py

@@ -1,4 +1,4 @@
-.. include:: icons.rst
+.. include:: ../icons.rst
 
 ==================================
 Testing and Continuous Integration

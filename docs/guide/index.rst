@@ -7,9 +7,11 @@ User Guide
     :titlesonly:
     :maxdepth: 1
 
-    api
-    basic_types
-    flags_enums
-    gobject
+    api/index
     cairo_integration
     threading
+    debug_profile
+    deploy
+    testing
+    porting
+    faq

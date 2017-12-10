@@ -11,4 +11,3 @@ Development Guide
     building_testing
     style_guide
     override_guidelines
-    packaging

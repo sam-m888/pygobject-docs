@@ -21,7 +21,6 @@ intersphinx_mapping = {
 
 source_suffix = '.rst'
 master_doc = 'index'
-copyright = u'2015'
 exclude_patterns = ['_build', 'README.rst']
 
 pygments_style = 'tango'

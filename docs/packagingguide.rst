@@ -1,5 +1,5 @@
-Packaging
-=========
+Packaging Guide
+===============
 
 Some notes on how to package PyGObject
 

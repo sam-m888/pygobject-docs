@@ -9,17 +9,13 @@ Making a Release
 #. Update NEWS file (use ``make release-news`` target and then edit as you see
    fit)
 #. Run ``make distcheck``, fix any issues and commit.
-#. Upload tarball: ``scp pygobject-3.X.Y.tar.gz master.gnome.org:``
-#. Install tarball:
-   ``ssh master.gnome.org 'ftpadmin install pygobject-3.X.Y.tar.gz'``
 #. Commit NEWS as ``"release 3.X.Y"`` and push
 #. Tag with: ``git tag -s 3.X.Y -m "release 3.X.Y"``
 #. Push tag with: ``git push origin 3.X.Y``
 #. Commit post-release version bump to configure.ac
-#. Send release announcements to gnome-announce-list@gnome.org;
-   pygtk@daa.com.au; python-hackers-list@gnome.org;
-   python-announce-list@python.org
-#. Blog about it (include the HTMLized NEWS that ``make release-news`` prints)
+#. Upload tarball: ``scp pygobject-3.X.Y.tar.gz user@master.gnome.org:``
+#. Install tarball:
+   ``ssh user@master.gnome.org 'ftpadmin install pygobject-3.X.Y.tar.gz'``
 
 Based on https://wiki.gnome.org/MaintainersCorner/Releasing
 
@@ -34,6 +30,3 @@ can continue in the master branch unaffected by the freezes.
 #. Push new branch: ``git push origin pygobject-3-2``
 #. In master, update configure.ac to what will be the next version number
    (3.3.0)
-#. Announce the branching, send email telling people to continue development
-   in master and cherry-picking the changes that are appropriate for the
-   stable branch

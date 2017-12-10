@@ -30,11 +30,3 @@ https://github.com/pygobject/pygobject-ci
 
 There is currently no integration with bugzilla/git.gnome.org for this and the
 status has to be checked manually.
-
-
-Documentation
--------------
-
-This documentation is hosted at https://github.com/pygobject/pygobject-docs
-
-The API docs are generated using https://github.com/pygobject/pgi-docgen
