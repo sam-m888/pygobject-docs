@@ -8,6 +8,7 @@
     :maxdepth: 1
 
     getting_started
+    changelog
     guide/index
     devguide/index
     packagingguide
