@@ -3,6 +3,9 @@ Packaging Guide
 
 Some notes on how to package PyGObject
 
+Source packages can be found at
+https://ftp.gnome.org/pub/GNOME/sources/pygobject
+
 
 Existing Packages:
 
@@ -26,7 +29,7 @@ Runtime dependencies:
 
     The overrides directory contains various files which includes various
     Python imports mentioning gtk, gdk etc. They are only used when the
-    corresponding library is present, they are not needed.
+    corresponding library is present, they are not direct dependencies.
 
 Build dependencies:
 
@@ -39,6 +42,10 @@ Build dependencies:
 
         * gnome-common for PyGObject < 3.26
         * autoconf-archive for PyGObject >= 3.26
+
+    If setup.py is used:
+
+        * setuptools
 
 Test Suite dependencies:
 
